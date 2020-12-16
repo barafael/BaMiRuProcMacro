@@ -8,6 +8,11 @@ enum A {
     c,
 }
 
+// This attr doesn't make too much sense, anything goes
+#[pmt::print_attr]
+for fn in struct X { fn.apply(|x| { dbg!(x); x }) }
+
+// This ident doesn't make too much sense, anything goes
 #[pmt::print_ident(struct () => enum { union fn }; a = for)]
 struct X {}
 
