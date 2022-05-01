@@ -20,4 +20,3 @@ struct Y {}
 fn test_id() {
     wrapped_function();
 }
-
